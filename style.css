@@ -90,6 +90,23 @@
 
 .your-message {
     width: 100%;
-    height: 240px;
+    height: 180px;
     border: 1px dotted darkgrey;
+}
+
+.show-name {
+    display: flex;
+    font-size: 14px;   
+}
+
+.question, #yes {
+    margin-right: 10px;
+}
+
+.radio-btn {
+    margin-left: 3px;
+}
+
+.radio-message {
+    color: red;
 }

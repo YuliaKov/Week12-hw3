@@ -12,6 +12,28 @@
       <div class="main-block">
         <div class="comment-block">
           <p class="block-title">Оставьте Ваш комментарий</p>
+          <div class="choose-radio">
+            <div class="show-name">
+              <p class="question">Показывать Ваше имя?</p>
+              <label for="yes">Да</label>
+              <input
+                type="radio"
+                id="yes"
+                name="choice"
+                value="yes"
+                class="radio-btn"
+              />
+              <label for="no">Нет</label>
+              <input
+                type="radio"
+                id="no"
+                name="choice"
+                value="no"
+                class="radio-btn"
+              />
+            </div>
+            <p class="radio-message" id="radioMessage"></p>
+          </div>
           <div class="info-block">
             <label for="putYourName">Введите Ваше имя:</label>
             <input type="text" class="put-info" id="putYourName" />
@@ -42,6 +64,7 @@
             </div>
             <p class="your-name" id="yourName"></p>
             <p class="your-message" id="yourMessage"></p>
+            <p class="message-Date" id="messageDate"></p>
           </div>
         </div>
       </div>
